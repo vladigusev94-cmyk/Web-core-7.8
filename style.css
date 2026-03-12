@@ -1,0 +1,53 @@
+
+
+
+@font-face {
+    font-family: TT Lakes;
+    src: url(fonts/TTLakes-Regular.ttf) format('ttf');
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    width: 320px;
+    
+}
+
+
+
+   header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+
+}
+
+
+button {
+    background: white;
+}
+
+
+body {
+    display: block;
+}
+
+
+ 
+
+
