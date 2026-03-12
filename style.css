@@ -20,8 +20,7 @@
 }
 
 
-
-body {
+html {
     width: 320px;
     
 }
@@ -31,6 +30,7 @@ body {
    header {
     padding: 15px;
     display: flex;
+    max-height: 88px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid gainsboro;
@@ -40,14 +40,54 @@ body {
 
 button {
     background: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    align-items: center;
+    justify-content: center;
 }
-
-
-body {
-    display: block;
-}
-
 
  
+body {
+    
+    
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid gainsboro;
+}
 
 
+
+.divider {
+position: absolute;
+ background-color:aqua;
+ width: 10px;
+ height: 40px;
+ margin-left: -7px;
+ border-radius: 5px;
+
+}
+
+.Subtitle {
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.best-button {
+    width: 220px;
+    
+}
+
+
+.services-menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    gap: 30px;
+    height: 45px;
+   
+}
