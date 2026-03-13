@@ -8,6 +8,12 @@
     
 }
 
+@font-face {
+    font-family: TT Lakes;
+    src: url(fonts/TTLakes-Bold.ttf) format('ttf');
+    font-weight: 700;
+    
+}
 
 
 
@@ -20,16 +26,19 @@
 }
 
 
-html {
+body {
     width: 320px;
-    
+    font-family: TT Lakes;
+    font-weight: 400;
+    font-size: 16px;
+
 }
 
 
 
    header {
-    padding: 15px;
     display: flex;
+    padding: 15px;
     max-height: 88px;
     justify-content: space-between;
     align-items: center;
@@ -42,22 +51,12 @@ button {
     background: white;
     outline: none;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10p;
     border: 1px solid gainsboro;
-    align-items: center;
-    justify-content: center;
+    
 }
 
  
-body {
-    
-    
-    font-weight: 400;
-    font-size: 16px;
-    border: 1px solid gainsboro;
-}
-
 
 
 .divider {
@@ -65,29 +64,73 @@ position: absolute;
  background-color:aqua;
  width: 10px;
  height: 40px;
- margin-left: -7px;
+ margin-left: -5px;
  border-radius: 5px;
 
 }
 
-.Subtitle {
-    display: flex;
+    .Subtitle {
+    display: block;
     position: relative;
-    border: 1px solid black;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .best-button {
-    width: 220px;
+   
+    height: 40px;
+
+}
+
+.menu {
+    padding: 20px;
+}
+
+
+.menu-list {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.menu__item {
+   
+    border: none;
+    background: none;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    
+
     
 }
 
 
-.services-menu {
+footer {
     display: flex;
     flex-direction: column;
-    max-width: 220px;
+    border: 1px solid salmon;
     gap: 30px;
-    height: 45px;
-   
+
 }
+
+.footer__phone {
+    font-family: TT Lakes;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer__mail {
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.footer__lang-btn {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
