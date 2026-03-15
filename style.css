@@ -79,7 +79,6 @@ border: none;
 display: flex;
 flex-direction: column;
 gap: 20px;
-max-width: 220px;
 padding-bottom: 20px;
 
 }
