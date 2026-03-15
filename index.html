@@ -1,89 +1,96 @@
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>side-menu</title>
-    </head>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__left">
-                <button class="header__logo-button">
-                     <img class=header__logo src="images/burger.png">
-                </button>
-
-                <button class="header__group-button">
-                    <img class=header__group src="images/Group-2.png">
-                </button>
-            </div>
-        </div>
-
-            <div class="header__right">
-                <button class="header__search-button">
-                    <img class=header__search src="images/search.jpg">
-                </button>
-            </div>
-         </header>
-    
-         <body>
-    <span class="Subtitle">
-            <span class="divider"></span>
-    <button class="best-button">Ремонт техники</button>  
-    </span>
-   
-
-        <main class="menu">
-            <nav class="menu__list">
-    <button class="menu__item">Услуги и сервисы</button>
-    <button class="menu__item">Корпаративным клиентам</button>
-    <button class="menu__item">Продавцам техники</button>
-    <button class="menu__item">Партнёрам</button>
-    <button class="menu__item">Производителям</button>
-    <button class="menu__item">Наши сервисные центры</button>
-    <button class="menu__item">Контакты</button>
-       </nav>
-        </main>
-
-   
-
-    <footer class="footer">
-        <div class="footer__container">
-            
-                <button class="footer-logo-button">
-                    <img class="footer__logo" src="images/chat copy.png">
-                </button>
-
-                <button class="footer__message-button">
-                    <img class="footer__message" src="images/chat.png">
-                </button>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=320, initial-scale=1.0">
+<title>Left-menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
 
-                
-                    <button class="footer__profile-button"> 
-                        <img class="footer__profile" src="images/profile.png">
-                    </button>
-                
-            
+<body class="page">
 
-            <div class="footer__contacts">
-                <a href="mailto:mail@cps.com" class="footer__mail">
-                    mail@cps.com
-                </a>
+<header class="header">
 
-                <a href="tel:88008908900"  class="footer__phone">
-                    8 800 890 8900
-                </a>
-            
+<div class="header__buttons">
 
-            <div class="footer__lang">
-                <button class="footer__lang-btn">RU</button>
-                 <button class="footer__lang-btn">EN</button>
-                  <button class="footer__lang-btn">CH</button>
-            </div>
-            </div>
-        </div>  
-    </footer>
+<button class="header__button header__button--close">
+    <img class="header__close" src="images/burger.png">
+</button>
 
-    <body>
+<button class="header__logo">
+
+<img src="images/Group-2.png" class="CPS">
+
+</button>
+</div>
+
+<div class="right-logo">
+<button class="header__button header__button--search">
+    <img class="header__search" src="images/search.jpg">
+</button>
+
+</div>
+
+</header>
+
+<main class="menu">
+
+<nav class="menu__list">
+<div class="first-title">
+    <div class="divider"></div>
+<div class="menu__title">Ремонт техники</div>
+    </div>
+
+    <div class="second-menu">
+<button class="menu__item">Услуги и сервисы</button>
+<button class="menu__item">Корпоративным клиентам</button>
+<button class="menu__item">Продавцам техники</button>
+<button class="menu__item">Партнёрам</button>
+<button class="menu__item">Производителям</button>
+<button class="menu__item">Наши сервисные центры</button>
+<button class="menu__item">Контакты</button>
+    </div>
+</nav>
+
+</main>
+
+<footer class="footer">
+
+<div class="footer__buttons">
+
+<button class="footer__button footer__button--call">
+    <img class="footer__call" src="images/chat copy.png">
+</button>
+
+<button class="footer__button footer__button--chat">
+    <img class="footer__message" src="images/chat.png">
+</button>
+
+<button class="footer__button footer__button--profile">
+    <img class="footer__profile" src="images/profile.png">
+</button>
+
+</div>
+
+<div class="footer__contacts">
+<a href="mailto:mail@cps.com" class="footer__mail">
+mail@cps.com
+</a>
+
+<a href="tel:88008908900" class="footer__phone">
+8 800 890 8900
+</a>
+
+</div>
+
+<div class="footer__lang">
+<button class="footer__lang-btn">RU</button>
+<button class="footer__lang-btn">EN</button>
+<button class="footer__lang-btn">CH</button>
+</div>
+
+</footer>
+</body>
 </html>
