@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "TT Lakes";
-    src: url(fonts/TTLakes-Regular.woff) format('woff');
+    src: url("fonts/TTLakes-Regular.woff") format('woff');
     font-weight: 400;
    
     
@@ -14,13 +14,13 @@
 
 @font-face {
     font-family: "TT Lakes";
-    src: url(fonts/TTLakes-Medium.woff) format('woff');
+    src: url("fonts/TTLakes-Medium.woff") format('woff');
     font-weight: 500;
 }
 
 @font-face {
     font-family: "TT Lakes";
-    src: url(fonts/TTLakes-Bold.woff) format('woff');
+    src: url("fonts/TTLakes-Bold.woff") format('woff');
     font-weight: 700;
     
 }
@@ -37,7 +37,6 @@ body {
 width: 320px;
 font-family: "TT Lakes";
 box-shadow: 5px 5px 10px rgba(126, 126, 130, 1);
-
 
 }
 
@@ -213,7 +212,6 @@ font-size: 20px;
 .footer__phone {
 padding-top: 15px;
 font-size: 30px;
-font-family: TT Lakes;
 font-weight: 700;
 text-decoration: none;
 color:black;
