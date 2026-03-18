@@ -35,8 +35,9 @@
 body {
 
 width: 320px;
-font-family: TT Lakes;
+font-family: "TT Lakes";
 box-shadow: 5px 5px 10px rgba(126, 126, 130, 1);
+
 
 }
 
@@ -107,7 +108,6 @@ font-weight: 500;
     border-radius: 5px;
     align-items: center;
     font-size: 16px;
-    font-weight: 500;
     color: rgba(126, 126, 130, 1);
     
 }
@@ -143,7 +143,7 @@ transition: all 0.3s ease;
 }
 
 .menu__item:hover {
-    transform: translateY(-1px);
+    transform: translateY( -3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     border: 2px solid aqua;
     
@@ -197,7 +197,7 @@ border: none;
 
 
 
-.footer__mail{
+.footer__mail {
 padding-top: 15px;
 display: block;
 margin-bottom: 10px;
@@ -231,5 +231,6 @@ background: none;
 margin-right: 10px;
 cursor: pointer;
 font-weight: 500;
+
 
 }
