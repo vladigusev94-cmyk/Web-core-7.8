@@ -33,8 +33,11 @@
 
 
 body {
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 width: 320px;
+min-height: 100dvh;
 font-family: "TT Lakes";
 box-shadow: 5px 5px 10px rgba(126, 126, 130, 1);
 
@@ -73,7 +76,6 @@ background-color: white;
 border: none;
 
 }
-
 
 
 
@@ -152,12 +154,15 @@ transition: all 0.3s ease;
 display: flex;
 flex-direction: column;
 gap: 20px;
+padding: 5px;
 
 }
 
 
 
-
+.menu {
+    flex: 1;
+}
 
 
 
@@ -230,5 +235,17 @@ margin-right: 10px;
 cursor: pointer;
 font-weight: 500;
 
+}
 
+
+
+@media (min-height: 480px) {
+
+    .second-menu {
+        overflow-y: scroll;
+    }
+    
+    .menu__item {
+        overflow-y: scroll;
+    }
 }
