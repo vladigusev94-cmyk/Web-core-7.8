@@ -239,13 +239,18 @@ font-weight: 500;
 
 
 
-@media (min-height: 480px) {
+@media (max-height: 480px) {
 
     .second-menu {
         overflow-y: scroll;
     }
     
-    .menu__item {
-        overflow-y: scroll;
+    
+       
+    
+
+    .menu__list {
+        height: 120px ;
+       
     }
 }
