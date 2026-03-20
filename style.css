@@ -40,6 +40,7 @@ width: 320px;
 min-height: 100dvh;
 font-family: "TT Lakes";
 box-shadow: 5px 5px 10px rgba(126, 126, 130, 1);
+overflow: hidden;
 
 }
 
@@ -162,6 +163,7 @@ padding: 5px;
 
 .menu {
     flex: 1;
+    overflow-y: auto;
 }
 
 
@@ -239,7 +241,7 @@ font-weight: 500;
 
 
 
-@media (max-height: 480px) {
+@media (max-height: 600px) {
 
     .second-menu {
         overflow-y: scroll;
@@ -250,7 +252,31 @@ font-weight: 500;
     
 
     .menu__list {
-        height: 120px ;
+     height: 250px;
+    
        
+    }
+}
+
+
+
+
+@media (min-width: 767px) {
+
+}
+
+@media (min-height: 900px) {
+    .menu__list {
+        gap: 25px;
+
+    }
+
+    .menu__item {
+        font-size: 18px;
+
+    }
+
+    .footer__phone {
+        font-size: 32px;
     }
 }
