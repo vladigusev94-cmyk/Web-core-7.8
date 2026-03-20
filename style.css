@@ -241,6 +241,32 @@ font-weight: 500;
 
 
 
+@media(max-height: 550px) {
+    .header {
+  padding: 8px;
+}
+
+.menu__list {
+    gap: 8px;
+}
+
+.second-menu {
+    gap: 10px;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer__buttons {
+    gap: 10px;
+}
+
+.footer__phone {
+    font-size: 18px;
+}
+}
+
 @media (max-height: 600px) {
 
     .second-menu {
@@ -280,3 +306,5 @@ font-weight: 500;
         font-size: 32px;
     }
 }
+
+
