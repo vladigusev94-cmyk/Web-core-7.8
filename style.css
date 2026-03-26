@@ -41,7 +41,7 @@ width: 320px;
 min-height: 100dvh;
 font-family: "TT Lakes";
 box-shadow: 5px 5px 10px rgba(126, 126, 130, 1);
- overflow-y: auto;
+ overflow-y: aut;
 
 }
 
@@ -166,8 +166,9 @@ padding: 5px;
     flex: 1;
     overflow-y: auto;
     scrollbar-width: none;
-   
     width: 235px;
+   
+    
    
 }
 
@@ -277,10 +278,9 @@ font-weight: 500;
 
 @media (max-height: 600px) {
 
-    .second-menu {
-        overflow-y: scroll;
-       
-    }
+   .container {
+    overflow-y: auto;
+   }
     
     
        
@@ -288,13 +288,6 @@ font-weight: 500;
         justify-content: center;
        
     }
-
-    .menu__list {
-     height: 205px;
-   
-       
-    }
-
 
 
 }
