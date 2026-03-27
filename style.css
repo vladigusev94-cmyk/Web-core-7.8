@@ -92,7 +92,6 @@ border: none;
 display: flex;
 flex-direction: column;
 gap: 20px;
-max-width: 235px;
 padding-bottom: 20px;
 
 }
@@ -159,6 +158,7 @@ transition: all 0.3s ease;
 .second-menu {
 display: flex;
 flex-direction: column;
+max-width: 255px;
 gap: 20px;
 padding: 5px;
 
@@ -170,7 +170,7 @@ padding: 5px;
     flex: 1;
     overflow-y: auto;
     scrollbar-width: none;
-    width: 235px;
+    width: 255px;
    
     
    
@@ -183,7 +183,7 @@ padding: 5px;
 
 .footer {
 padding: 20px;
-
+margin-top: 200px;
 
 
 }
@@ -271,6 +271,7 @@ font-weight: 500;
 
 .footer {
     padding: 10px;
+    margin-top: 150px;
 }
 
 .footer__buttons {
@@ -284,14 +285,16 @@ font-weight: 500;
 
 @media (max-height: 600px) {
    
-    
-
    .container {
     overflow-y: auto;
     height: 100vh;
    }
     
 
+   .footer {
+    margin-top: 80px;
+    padding: 20px;
+   }
     
        
     .menu {
@@ -299,7 +302,25 @@ font-weight: 500;
        
     }
 
+    .second-menu {
+        max-width: 220px;
+    }
 
+    .menu__item {
+        max-width: 220px;
+    }
+}
+
+
+@media (min-height: 600px) {
+
+    .footer {
+        padding: 20px;
+    }
+
+    .menu__item {
+        max-width: 205px;
+    }
 }
 
 
@@ -313,6 +334,7 @@ font-weight: 500;
 
     .menu__item {
         font-size: 18px;
+        max-width: 245px;
 
     }
 
